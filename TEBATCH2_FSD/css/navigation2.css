@@ -1,0 +1,49 @@
+/* Font size (px)
+1 em = 16px
+Font-weight */
+
+/* *  is the root element  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100vw;
+  background: #df8c2d;
+  /* line-height: 1; */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.logotext {
+  /* border: 1px solid red; */
+  margin-left: 50px;
+  align-self: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+ul {
+  display: flex;
+  /* border: 1px solid blue; */
+  gap: 20px;
+  margin-right: 50px;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+  font-size: 16px;
+}

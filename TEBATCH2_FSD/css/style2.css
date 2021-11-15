@@ -1,0 +1,71 @@
+/* FlEX CONTAINER 
+      display:flex;
+      gap: 
+      justify-content:
+      align-items: 
+      
+    
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*  Giving the body some height and width */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* background: red; */
+}
+
+/* class name attributes referred in css by .classname   */
+.container {
+  background: pink;
+  display: flex;
+  width: 70%;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+  /* font-size: 64px; */
+}
+
+.el {
+  border: 1px solid black;
+}
+
+.el--1 {
+  background: violet;
+}
+
+.el--2 {
+  background: indigo;
+}
+
+.el--3 {
+  background: blue;
+}
+
+.el--4 {
+  background: green;
+}
+
+.el--5 {
+  background: violet;
+}
+
+.el--6 {
+  background: yellow;
+}
+
+.el--7 {
+  background: red;
+}
+.el--8 {
+  background: magenta;
+  height: 200px;
+}
