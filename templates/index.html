@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodify</title>
+  <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+
+<header>
+  <div class="logo-text">Foodify</div>
+    <!-- <img src="{{url_for('static',filename='images/logo.svg')}}" alt="Brand Logo"> -->
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+    </ul>
+</header>
+
+  <section class="hero-section">
+    <div class="hero">
+        <div class="hero-img-text-box">
+            <h1 class="hero-primary">A healthy meal delivered to your door, every single day</h1>
+            <p class="hero-description">The smart 365-days-per-year food subscription that will make you eat
+              healthy again. Tailored to your personal tastes and nutritional needs. 
+              We have delivered 250,000+ meals last year!</p>
+            <a href="#" class="btn">Change your taste</a>
+            <a href="#" class="btn btn-secondary">Will try Later &darr;</a>
+            <div class="delivered-meals">
+                <div class="customers">
+                  <div class="customer-images">
+                    <img src="{{url_for('static',filename='images/customers/img-1.jpg')}}" alt="statisfied customer">
+                    <img src="{{url_for('static',filename='images/customers/img-2.jpg')}}" alt="statisfied customer">
+                    <img src="{{url_for('static',filename='images/customers/img-3.jpg')}}" alt="statisfied customer">
+                    <img src="{{url_for('static',filename='images/customers/img-4.jpg')}}" alt="statisfied customer">
+                  </div>
+                </div>
+
+            </div>
+
+        </div>
+    <div class="hero-img-box">
+        <img src="{{url_for('static',filename='images/food_catalogue/FD-7.jpg')}}" class="hero-img",alt="The first landing image">
+    </div>
+  </div>
+  </section>
+</body>
+</html>
